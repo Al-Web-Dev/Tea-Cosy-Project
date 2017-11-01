@@ -40,7 +40,8 @@ nav span {
 }
 
 div {
-    border: 0px solid red;
+    border: px solid red;
+    display:block;
 }
 
  a {
@@ -68,7 +69,7 @@ div {
     color: seashell;
     display: flex;
     width: 100%;
-    height: 140px;
+    height: 95px;
     opacity: 0.9;
     align-items: center;
     display: block;    
@@ -77,17 +78,135 @@ div {
 }
 
 
-h2, h3, h4 {
+.text h2, h3, h4, h5 {
     margin: 0;
-    padding: 10px;
+    padding-top: 14px;
     text-align: center;
+    align-items: center;
+}
+
+.products h2, h3, h4 {
+    margin: 0;
+    padding-top: 14px;
+    text-align: center;
+    align-items: center;
 
 }
 
+.products {
+    width: 1000px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    margin: auto;
+}
 
+.products-text {
+    background-color: black;
+    color: seashell;
+    display: flex;
+    height: 95px;
+    opacity: 0.9;
+    align-items: center;
+    display: block;    
+    justify-content: center;
+}
 
+.product-images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 1000px;
+    margin: auto;
+}
 
+.photo {
+    padding: 5px;
+    height: 240px;
+    width: 300px;
+}
 
+.photo span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.locations {
+    background-image: url("../img-locations-background.jpg");
+    height: 600px;
+    width: 1200px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    
+
+}
+
+.location-text {
+    text-align: center;
+    margin: 0;
+    padding: 50px 0px 0px 0px;
+    width: 1200px;
+    display: block;
+    border: px red solid;
+    height: 67px;
+}
+
+.text-boxes {
+    
+    display: block;
+    margin-top: 15px;
+    width: 1200px;
+    border: px pink solid;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+    background-color: black;
+    z-index: 1;
+    position: relative;
+    margin-right: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-r {
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+    background-color: black;
+    z-index: 1;
+    position: relative;
+    margin-right: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-text {
+    align-items: center;
+    border: px green solid;
+}
+
+.contact {
+    height: 200px;
+}
+
+.copyright {
+    margin: 0px 0px 20px 20px;
+
+}
 
 
 
