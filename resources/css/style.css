@@ -1,212 +1,116 @@
 body {
     font-family: helvetica;
-    font-size: 22px;
-    color: seashell;
-    background-color: black;
-    opacity: 0.9;
     margin: 0;
-}
-
-header {
-    height: 69px;
-    border-bottom: 1px solid seashell;
-    position: fixed;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
     background-color: black;
-    flex-wrap: wrap;
-    margin-top: 0;
-}
-
-.logo {
-    align-items: center;
-
-    display: flex;
-    padding-left: 10px;
-    height: 50px;   
-}
-
-nav {
-    padding-right: 5px;
-}
-
-nav span {
-    display: inline-block;
-    text-decoration: underline;
-    padding-right: 25px;
-    
-
+    font-size: 18px;
 }
 
 div {
+
     border: px solid red;
-    display:block;
 }
 
- a {
-    color: seashell;
+.wrapper {
+    height: 1000px;
+    width:  1040px;
+    margin: auto;
+
+   
+
 }
 
-.flex-container {
+header {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    height: 69px;
+    width: 100%;
+
+
+}
+
+.logo {
+    
+    color: white;
+    display: flex;
+    height: 35px;
+
+    
+    margin: 1.5rem;
+}
+
+.header-text {
+    color: white;
+    display: inline-block;
 }
 
 .banner {
-    height: 700px;
+    height: 25rem;
+    background-image: url("../moto.jpeg");
     display: flex;
-    justify-content: center;
-    background-image: url("../img-mission-background.jpg");
-    width: 1200px;
-    padding-top: 70px;
+
     margin: auto;
-}
-
-.text {
-    background-color: black;
-    color: seashell;
-    display: flex;
     width: 100%;
-    height: 95px;
-    opacity: 0.9;
-    align-items: center;
-    display: block;    
-    margin-top: 256px;
-    justify-content: center;
+}
+
+.text-box {
+    background-color: black;
+    width: 20rem;
+    height: 10rem;
+    padding: 2rem 3rem;
+    margin: 5rem;
+    flex-wrap: wrap;
+
+}
+
+.text-arrive {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 
-.text h2, h3, h4, h5 {
-    margin: 0;
-    padding-top: 14px;
-    text-align: center;
+nav { 
+    background-color: firebrick;
+    display: flex;
     align-items: center;
-}
+    justify-content: space-around;
+    padding: 0.75rem 0 0.75rem 0;
+ }
 
-.products h2, h3, h4 {
-    margin: 0;
-    padding-top: 14px;
-    text-align: center;
-    align-items: center;
-
+.items {
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .products {
-    width: 1000px;
-    display: flex;
+    border: 4px solid black;
+    margin: 3rem auto 0 auto;
+
+    justify-content: ;
+    display: ;
+    width: 30%;
+}
+
+.text-products {
     background-color: black;
-    justify-content: center;
-    margin: auto;
-}
-
-.products-text {
-    background-color: black;
-    color: seashell;
-    display: flex;
-    height: 95px;
-    opacity: 0.9;
-    align-items: center;
-    display: block;    
-    justify-content: center;
-}
-
-.product-images {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    width: 1000px;
-    margin: auto;
-}
-
-.photo {
-    padding: 5px;
-    height: 240px;
-    width: 300px;
-}
-
-.photo span {
-    display: block;
-    padding: 5px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.locations {
-    background-image: url("../img-locations-background.jpg");
-    height: 600px;
-    width: 1200px;
-    justify-content: center;
-    margin: auto;
-    margin-top: 50px;
+    color: white;
     
-
 }
 
-.location-text {
-    text-align: center;
-    margin: 0;
-    padding: 50px 0px 0px 0px;
-    width: 1200px;
-    display: block;
-    border: px red solid;
-    height: 67px;
-}
+.products img {
+    height: 9rem;
+    padding: 2rem 0 2rem 0;
+    margin-left: 70px;
 
-.text-boxes {
     
-    display: block;
-    margin-top: 15px;
-    width: 1200px;
-    border: px pink solid;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-}
-
-.box {
-    height: 300px;
-    width: 300px;
-    opacity: 1;
-    background-color: black;
-    z-index: 1;
-    position: relative;
-    margin-right: 40px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.box-r {
-    height: 300px;
-    width: 300px;
-    opacity: 1;
-    background-color: black;
-    z-index: 1;
-    position: relative;
-    margin-right: 0px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.box-text {
-    align-items: center;
-    border: px green solid;
-}
-
-.contact {
-    height: 200px;
-}
-
-.copyright {
-    margin: 0px 0px 20px 20px;
+    
 
 }
 
